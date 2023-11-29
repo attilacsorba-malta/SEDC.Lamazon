@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Lamazon.Web", "SEDC.Lamazon.Web\SEDC.Lamazon.Web.csproj", "{11B83E61-0BD8-43E8-AE98-8070E0B2A67D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Lamazon.Domain", "SEDC.Lamazon.Domain\SEDC.Lamazon.Domain.csproj", "{176CDB07-2B82-4A22-BFDB-E28CA712DE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Lamazon.DataAccess", "SEDC.Lamazon.DataAccess\SEDC.Lamazon.DataAccess.csproj", "{66F15B4F-AAAA-4FCD-A1BC-9598C9BDA812}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11B83E61-0BD8-43E8-AE98-8070E0B2A67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B83E61-0BD8-43E8-AE98-8070E0B2A67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B83E61-0BD8-43E8-AE98-8070E0B2A67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B83E61-0BD8-43E8-AE98-8070E0B2A67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176CDB07-2B82-4A22-BFDB-E28CA712DE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176CDB07-2B82-4A22-BFDB-E28CA712DE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176CDB07-2B82-4A22-BFDB-E28CA712DE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176CDB07-2B82-4A22-BFDB-E28CA712DE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F15B4F-AAAA-4FCD-A1BC-9598C9BDA812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F15B4F-AAAA-4FCD-A1BC-9598C9BDA812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F15B4F-AAAA-4FCD-A1BC-9598C9BDA812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F15B4F-AAAA-4FCD-A1BC-9598C9BDA812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
